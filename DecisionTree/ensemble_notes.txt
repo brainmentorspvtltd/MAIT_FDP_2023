@@ -1,0 +1,33 @@
+Ensemble Methods
+- Bagging
+	- Bootstrap Aggregation
+	- Random Forest
+- Boosting
+	- Ada Boost - Adaptive Boosting
+	- Gradient Boosting
+	- XGBoost
+- Stacking
+	- Stacked Model
+	- Blending
+-------------------------------------------
+Bagging - Bootstrap Aggregation
+- whenever you have a dataset then idea is to create different subsets of data from training samples that are chosen randomly with replacement
+- For each subset their will be a different decision tree
+- At the end we can find out average of all trees and do the prediction
+Random Forest
+- it's an extension of bagging
+- it includes one extra step where it add random features to the subset
+- it involve random selection of feature to grow tree
+- there are n number of observations and m number of features
+- a subset of m features are selected randomly and whichever feature gives the best split is used to split the node iteratively
+
+-------------------------------------------------------------
+Boosting
+- AdaBoost - Adaptive Boosting
+  - here we have weak learners that are trained sequentially and try to make strong learners from weak
+ 
+Gradient Boosting = Gradient Descent + Boosting
+XGBoost - Xtreme Gradient Boosting
+
+
+
